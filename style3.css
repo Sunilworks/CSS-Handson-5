@@ -1,0 +1,175 @@
+
+body{
+    border: 10px solid;
+    border-color: white green white orange; 
+}
+
+.sky{
+    background-image: url(./sky.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+.happy{
+    font-size: 45px;
+    background-color: orange;
+    margin: 2.5px;
+    font-weight: bold;
+    color: black;
+    display: inline;
+    position: relative;
+    left: 450px;
+    font-family: 'PT Serif', serif;
+}
+
+.ind{
+    font-size: 45px;
+    background-color: white;
+    margin: 2.5px;
+    font-weight: bold;
+    color: black;
+    display: inline;
+    position: relative;
+    left: 450px;
+    font-family: 'PT Serif', serif;
+}
+
+.day{
+    font-size: 45px;
+    background-color: green;
+    margin: 2.5px;
+    font-weight: bold;
+    color: black;
+    display: inline;
+    position: relative;
+    left: 450px;
+    font-family: 'PT Serif', serif;
+}
+
+.road{
+    background-image: url(./road.jpg);
+    height: 200px;
+    width: 500%;
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    z-index: 2;
+    animation: road 5s infinite linear;
+}
+
+
+@keyframes road{
+    100%{
+        transform: translateX(-2500px);
+    }
+}
+
+.city{
+    background-image: url(./city.png);
+    display: block;
+    height: 250px;
+    width: 500%;
+    position: absolute;
+    top: 275px;
+    animation: city 5s infinite linear;
+}
+
+
+@keyframes city{
+    100%{
+        transform: translateX(-500px);
+    }
+}
+
+
+.car{
+    background-image: url(./car.png);
+    height: 20vh;
+    width: 30vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    z-index: 2;
+    position: absolute;
+    left: 500px;
+    bottom: 150px;
+    animation: car 1s infinite linear;
+}
+
+@keyframes car{
+    0%{
+        transform: translateY(1px);
+    }
+    
+    50%{
+        transform: translateY(-1px);
+    }
+
+    100%{
+        transform: translateY(1px);
+    }
+}
+
+
+#wh1{
+    position: absolute;
+    left: 785px;
+    bottom: 140px;
+    z-index: 2;
+    animation: wh1 1s infinite linear;
+}
+
+@keyframes wh1{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+#wh2{
+    position: absolute;
+    left: 540px;
+    bottom:140px;
+    z-index: 2;
+    animation: wh2 1s infinite linear;
+}
+
+
+@keyframes wh2{
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+
+.flag{
+    height: 75px;
+    width: 90px;
+    position: absolute;
+    left: 800px;
+    bottom: 240px; 
+    z-index: 3;
+}
+
+.sun{
+    position: absolute;
+    bottom: 520px;
+    left: 1200px;
+    z-index: 2;
+    animation: sun 5s infinite linear;
+}
+
+@keyframes sun{
+   100%{
+    transform: translateX(-100px);
+   } 
+}
+
+
+
+
