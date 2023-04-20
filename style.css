@@ -1,5 +1,5 @@
 body{
-    background-color: yellow;
+    background-color: rgb(12, 231, 213);
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -27,7 +27,7 @@ h1{
     height: 100px;
     width: 100px;
     margin: 20px;
-    background-color: blue;
+    background-color: rgb(183, 41, 211);
     border: 2px solid black;
     animation: anim 3s infinite alternate;
 }
@@ -62,7 +62,7 @@ h1{
     height: 100px;
     width: 100px;
     margin: 20px;
-    background-color: grey;
+    background-color: rgb(7, 255, 27);
     border: 2px solid black;
     animation: anim1 3s infinite alternate;
 }
